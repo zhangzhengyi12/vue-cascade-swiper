@@ -16,7 +16,7 @@
 核心一共有四个元素 
 prev-item cur-item next-item after-next-item (按显示层级从高到低进行排序)
 
-用户触摸的时候计算一个动画进度 [-1,1] 
+用户触摸的时候计算一个动画进度 默认为0 最大为1 最小为-1
 
 -1代表prev-item移动到 cur-item 的位置，同理  cur-item 移动到 next-item 的位置
 
